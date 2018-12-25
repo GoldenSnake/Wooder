@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;  
+}
+
+.navigation,
+.user-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.navigation {
+  left: 510px;
+  top: 20px;
+}
+
+.navigation li,
+.user-navigation li{
+  display: inline-block;  
+}
+
+.user-navigation a {
+  display: block;  
+}
+
+.slider-bckg {
+  display: flex;
+}
+
+.wood {
+  min-width: 742px; 
+  height: 1001px;
+  background: url(/img/backgrounds/wood2.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  float: left;
+}
+.logs {
+  min-width: 624px;
+  height: 1043px;
+  background: url(/img/backgrounds/logs.jpg) no-repeat; 
+  background-size: contain;
+  float: right;
+}
